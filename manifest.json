@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Word To SWU",
+	"version": "1.0",
+	"description": "Replaces the beginning of words that work to SWU",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
