@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Word To SWU",
+	"name": "Touch of SWU",
 	"version": "1.0",
-	"description": "Replaces the beginning of words that work to SWU",
+	"description": "Replaces the beginning of words that start with 'u' to 'swu'",
 	"content_scripts": 
 	[
 		{
